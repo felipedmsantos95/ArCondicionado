@@ -1,0 +1,946 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+                              ./Project_Settings/Startup_Code/system_MKL25Z4.o (__aeabi_uidiv)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o)
+                              ./Sources/main.o (__aeabi_unwind_cpp_pr0)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(libunwind.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o) (restore_core_regs)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(pr-support.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-abort.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o) (abort)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memcpy-stub.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o) (memcpy)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-abort.o) (raise)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o) (_kill_r)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o) (_malloc_r)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o) (errno)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o) (_free_r)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(getpid.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o) (_getpid)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(kill.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o) (_kill)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o) (_sbrk)
+c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+                              c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-abort.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .group         0x00000000       0x10 ./Sources/main.o
+ .group         0x00000000       0x10 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .text          0x00000000        0x0 ./Sources/main.o
+ .data          0x00000000        0x0 ./Sources/main.o
+ .bss           0x00000000        0x0 ./Sources/main.o
+ .ARM.extab.text._Z5setupv
+                0x00000000        0x0 ./Sources/main.o
+ .ARM.extab.text.PIT_IRQHandler
+                0x00000000        0x0 ./Sources/main.o
+ .ARM.extab.text.main
+                0x00000000        0x0 ./Sources/main.o
+ .ARM.extab.text._Z41__static_initialization_and_destruction_0ii
+                0x00000000        0x0 ./Sources/main.o
+ .ARM.extab.text._GLOBAL__sub_I_pit
+                0x00000000        0x0 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .group         0x00000000        0x8 ./Sources/mkl_PIT.o
+ .text          0x00000000        0x0 ./Sources/mkl_PIT.o
+ .data          0x00000000        0x0 ./Sources/mkl_PIT.o
+ .bss           0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT11bindChannelE9PIT_ChPIT
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT21enablePeripheralClockEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT22enablePeripheralModuleEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .text._ZN7mkl_PIT23disablePeripheralModuleEv
+                0x00000000       0x20 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT23disablePeripheralModuleEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.exidx.text._ZN7mkl_PIT23disablePeripheralModuleEv
+                0x00000000        0x8 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT9setPeriodEm
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .text._ZN7mkl_PIT11readCounterEv
+                0x00000000       0x18 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT11readCounterEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.exidx.text._ZN7mkl_PIT11readCounterEv
+                0x00000000        0x8 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT11enableTimerEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT12disableTimerEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT12resetCounterEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT17waitInterruptFlagEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT18clearInterruptFlagEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .ARM.extab.text._ZN7mkl_PIT18isInterruptFlagSetEv
+                0x00000000        0x0 ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000      0x826 ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000       0x1c ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000       0x16 ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000       0x44 ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000      0x209 ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000       0x3a ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000       0x26 ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000      0x306 ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000       0x63 ./Sources/mkl_PIT.o
+ .debug_macro   0x00000000     0x839f ./Sources/mkl_PIT.o
+ .group         0x00000000       0x10 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .group         0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .text          0x00000000        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+ .data          0x00000000        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+ .bss           0x00000000        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.extab.text.NVIC_EnableIRQ
+                0x00000000        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+ .text.NVIC_DisableIRQ
+                0x00000000       0x2c ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.extab.text.NVIC_DisableIRQ
+                0x00000000        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.exidx.text.NVIC_DisableIRQ
+                0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.extab.text._ZN25mkl_PITInterruptInterrupt23enableInterruptRequestsEv
+                0x00000000        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+ .text._ZN25mkl_PITInterruptInterrupt24disableInterruptRequestsEv
+                0x00000000       0x24 ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.extab.text._ZN25mkl_PITInterruptInterrupt24disableInterruptRequestsEv
+                0x00000000        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.exidx.text._ZN25mkl_PITInterruptInterrupt24disableInterruptRequestsEv
+                0x00000000        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000      0x826 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000       0x1c ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000       0x16 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000       0x44 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000      0x209 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000       0x4c ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000       0x3a ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000       0x26 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000      0x306 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000       0x63 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000     0x839f ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x00000000       0x10 ./Sources/mkl_PITPeriodicInterrupt.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x23c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x44 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000      0x209 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x3a ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x26 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x63 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000     0x839f ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text          0x00000000       0x9c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o)
+ .debug_frame   0x00000000      0x2c4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(libunwind.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(libunwind.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(libunwind.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(pr-support.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(pr-support.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(pr-support.o)
+ .debug_frame   0x00000000       0xf8 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(pr-support.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-abort.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-abort.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-abort.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-abort.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-abort.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .text._init_signal_r
+                0x00000000       0x30 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .text._signal_r
+                0x00000000       0x32 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .text.__sigtramp_r
+                0x00000000       0x4c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .text.signal   0x00000000       0x18 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .text._init_signal
+                0x00000000       0x10 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .text.__sigtramp
+                0x00000000       0x14 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .debug_frame   0x00000000       0xe0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o)
+ .debug_frame   0x00000000       0x44 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x00000000       0xa8 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xcc c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .debug_frame   0x00000000       0x48 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x24 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .text._free_r  0x00000000       0x90 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(getpid.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(getpid.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(getpid.o)
+ .stab          0x00000000       0x24 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(getpid.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(getpid.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(getpid.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(kill.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(kill.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(kill.o)
+ .stab          0x00000000       0x18 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(kill.o)
+                                 0x24 (size before relaxing)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(kill.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(kill.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .text._sbrk    0x00000000       0x34 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .bss.heap_end.4246
+                0x00000000        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000100         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x0001fbf0         xr
+m_data           0x1ffff000         0x00004000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD ./Sources/main.o
+LOAD ./Sources/mkl_PIT.o
+LOAD ./Sources/mkl_PITPeriodicInterrupt.o
+LOAD ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+LOAD ./Project_Settings/Startup_Code/system_MKL25Z4.o
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libstdc++_s.a
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libm.a
+START GROUP
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+LOAD c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+
+.interrupts     0x00000000       0xc0
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x00000000                __isr_vector
+                0x000000c0                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410     0x1538
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x60 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .text          0x00000470       0x78 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x00000470                _start
+                0x00000470                _mainCRTStartup
+ .text          0x000004e8       0x34 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x000004e8                Reset_Handler
+                0x00000514                HardFault_Handler
+                0x00000514                SysTick_Handler
+                0x00000514                PendSV_Handler
+                0x00000514                NMI_Handler
+                0x00000514                I2C1_IRQHandler
+                0x00000514                UART1_IRQHandler
+                0x00000514                DMA2_IRQHandler
+                0x00000514                TPM0_IRQHandler
+                0x00000514                LLWU_IRQHandler
+                0x00000514                TSI0_IRQHandler
+                0x00000514                UART0_IRQHandler
+                0x00000514                ADC0_IRQHandler
+                0x00000514                Reserved39_IRQHandler
+                0x00000514                SPI1_IRQHandler
+                0x00000514                DefaultISR
+                0x00000514                PORTD_IRQHandler
+                0x00000514                TPM2_IRQHandler
+                0x00000514                RTC_IRQHandler
+                0x00000514                I2C0_IRQHandler
+                0x00000514                RTC_Seconds_IRQHandler
+                0x00000514                MCG_IRQHandler
+                0x00000514                UART2_IRQHandler
+                0x00000514                Reserved20_IRQHandler
+                0x00000514                USB0_IRQHandler
+                0x00000514                SVC_Handler
+                0x00000514                DMA3_IRQHandler
+                0x00000514                DMA0_IRQHandler
+                0x00000514                DAC0_IRQHandler
+                0x00000514                Reserved45_IRQHandler
+                0x00000514                TPM1_IRQHandler
+                0x00000514                LVD_LVW_IRQHandler
+                0x00000514                SPI0_IRQHandler
+                0x00000514                PORTA_IRQHandler
+                0x00000514                FTFA_IRQHandler
+                0x00000514                LPTMR0_IRQHandler
+                0x00000514                CMP0_IRQHandler
+                0x00000514                DMA1_IRQHandler
+ .text          0x0000051c      0xa34 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o)
+                0x000007f4                _Unwind_GetCFA
+                0x000007f8                __gnu_Unwind_RaiseException
+                0x00000848                __gnu_Unwind_ForcedUnwind
+                0x0000085c                __gnu_Unwind_Resume
+                0x000008a4                __gnu_Unwind_Resume_or_Rethrow
+                0x000008c0                _Unwind_Complete
+                0x000008c4                _Unwind_DeleteException
+                0x000008d4                _Unwind_VRS_Get
+                0x00000920                _Unwind_VRS_Set
+                0x00000970                __gnu_Unwind_Backtrace
+                0x00000cc8                __aeabi_unwind_cpp_pr0
+                0x00000cd4                __aeabi_unwind_cpp_pr1
+                0x00000ce0                __aeabi_unwind_cpp_pr2
+                0x00000cec                _Unwind_VRS_Pop
+ .text          0x00000f50      0x144 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(libunwind.o)
+                0x00000f50                __restore_core_regs
+                0x00000f50                restore_core_regs
+                0x00000f7c                __gnu_Unwind_Restore_VFP
+                0x00000f80                __gnu_Unwind_Save_VFP
+                0x00000f84                __gnu_Unwind_Restore_VFP_D
+                0x00000f88                __gnu_Unwind_Save_VFP_D
+                0x00000f8c                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x00000f90                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x00000f94                __gnu_Unwind_Restore_WMMXD
+                0x00000f98                __gnu_Unwind_Save_WMMXD
+                0x00000f9c                __gnu_Unwind_Restore_WMMXC
+                0x00000fa0                __gnu_Unwind_Save_WMMXC
+                0x00000fa4                ___Unwind_RaiseException
+                0x00000fa4                _Unwind_RaiseException
+                0x00000fd4                _Unwind_Resume
+                0x00000fd4                ___Unwind_Resume
+                0x00001004                _Unwind_Resume_or_Rethrow
+                0x00001004                ___Unwind_Resume_or_Rethrow
+                0x00001034                _Unwind_ForcedUnwind
+                0x00001034                ___Unwind_ForcedUnwind
+                0x00001064                ___Unwind_Backtrace
+                0x00001064                _Unwind_Backtrace
+ .text          0x00001094      0x3a4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(pr-support.o)
+                0x000010e8                __gnu_unwind_execute
+                0x000013e0                __gnu_unwind_frame
+                0x00001408                _Unwind_GetRegionStart
+                0x00001414                _Unwind_GetLanguageSpecificData
+                0x00001428                _Unwind_GetDataRelBase
+                0x00001430                _Unwind_GetTextRelBase
+ *(.text*)
+ .text._ZN4Gpio4initEv
+                0x00001438       0x50 ./Sources/main.o
+                0x00001438                Gpio::init()
+ .text._ZN4Gpio18invertCurrentStateEv
+                0x00001488       0x20 ./Sources/main.o
+                0x00001488                Gpio::invertCurrentState()
+ .text._Z5setupv
+                0x000014a8       0x30 ./Sources/main.o
+                0x000014a8                setup()
+ .text.PIT_IRQHandler
+                0x000014d8       0x20 ./Sources/main.o
+                0x000014d8                PIT_IRQHandler
+ .text.main     0x000014f8       0x3c ./Sources/main.o
+                0x000014f8                main
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x00001534       0x30 ./Sources/main.o
+ .text._GLOBAL__sub_I_pit
+                0x00001564       0x18 ./Sources/main.o
+ .text._ZN7mkl_PIT11bindChannelE9PIT_ChPIT
+                0x0000157c       0x64 ./Sources/mkl_PIT.o
+                0x0000157c                mkl_PIT::bindChannel(PIT_ChPIT)
+ .text._ZN7mkl_PIT21enablePeripheralClockEv
+                0x000015e0       0x28 ./Sources/mkl_PIT.o
+                0x000015e0                mkl_PIT::enablePeripheralClock()
+ .text._ZN7mkl_PIT22enablePeripheralModuleEv
+                0x00001608       0x20 ./Sources/mkl_PIT.o
+                0x00001608                mkl_PIT::enablePeripheralModule()
+ .text._ZN7mkl_PIT9setPeriodEm
+                0x00001628       0x18 ./Sources/mkl_PIT.o
+                0x00001628                mkl_PIT::setPeriod(unsigned long)
+ .text._ZN7mkl_PIT11enableTimerEv
+                0x00001640       0x20 ./Sources/mkl_PIT.o
+                0x00001640                mkl_PIT::enableTimer()
+ .text._ZN7mkl_PIT12disableTimerEv
+                0x00001660       0x20 ./Sources/mkl_PIT.o
+                0x00001660                mkl_PIT::disableTimer()
+ .text._ZN7mkl_PIT12resetCounterEv
+                0x00001680       0x20 ./Sources/mkl_PIT.o
+                0x00001680                mkl_PIT::resetCounter()
+ .text._ZN7mkl_PIT17waitInterruptFlagEv
+                0x000016a0       0x24 ./Sources/mkl_PIT.o
+                0x000016a0                mkl_PIT::waitInterruptFlag()
+ .text._ZN7mkl_PIT18clearInterruptFlagEv
+                0x000016c4       0x20 ./Sources/mkl_PIT.o
+                0x000016c4                mkl_PIT::clearInterruptFlag()
+ .text._ZN7mkl_PIT18isInterruptFlagSetEv
+                0x000016e4       0x2c ./Sources/mkl_PIT.o
+                0x000016e4                mkl_PIT::isInterruptFlagSet()
+ .text.NVIC_EnableIRQ
+                0x00001710       0x2c ./Sources/mkl_PITPeriodicInterrupt.o
+ .text._ZN7mkl_PITC2Ev
+                0x0000173c       0x14 ./Sources/mkl_PITPeriodicInterrupt.o
+                0x0000173c                mkl_PIT::mkl_PIT()
+                0x0000173c                mkl_PIT::mkl_PIT()
+ .text._ZN25mkl_PITInterruptInterruptC2E9PIT_ChPIT
+                0x00001750       0x38 ./Sources/mkl_PITPeriodicInterrupt.o
+                0x00001750                mkl_PITInterruptInterrupt::mkl_PITInterruptInterrupt(PIT_ChPIT)
+                0x00001750                mkl_PITInterruptInterrupt::mkl_PITInterruptInterrupt(PIT_ChPIT)
+ .text._ZN25mkl_PITInterruptInterrupt23enableInterruptRequestsEv
+                0x00001788       0x24 ./Sources/mkl_PITPeriodicInterrupt.o
+                0x00001788                mkl_PITInterruptInterrupt::enableInterruptRequests()
+ .text.SystemInit
+                0x000017ac       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                0x000017ac                SystemInit
+ .text.abort    0x000017c4        0xe c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-abort.o)
+                0x000017c4                abort
+ *fill*         0x000017d2        0x2 
+ .text.exit     0x000017d4       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+                0x000017d4                exit
+ .text.__libc_init_array
+                0x00001800       0x4c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+                0x00001800                __libc_init_array
+ .text.memcpy   0x0000184c       0x12 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memcpy-stub.o)
+                0x0000184c                memcpy
+ .text.memset   0x0000185e       0x10 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+                0x0000185e                memset
+ .text._raise_r
+                0x0000186e       0x56 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+                0x0000186e                _raise_r
+ .text.raise    0x000018c4       0x14 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signal.o)
+                0x000018c4                raise
+ .text._kill_r  0x000018d8       0x24 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o)
+                0x000018d8                _kill_r
+ .text._getpid_r
+                0x000018fc        0x8 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-signalr.o)
+                0x000018fc                _getpid_r
+ .text._getpid  0x00001904       0x10 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(getpid.o)
+                0x00001904                _getpid
+ .text._kill    0x00001914       0x10 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(kill.o)
+                0x00001914                _kill
+ .text._exit    0x00001924        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+                0x00001924                _exit
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00001928        0x2 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ *fill*         0x0000192a        0x2 
+ .rodata._global_impure_ptr
+                0x0000192c        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+                0x0000192c                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x00001930        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ *(.init)
+ .init          0x00001930        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x00001930                _init
+ .init          0x00001934        0x8 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x0000193c        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x0000193c                _fini
+ .fini          0x00001940        0x8 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00001948                . = ALIGN (0x4)
+
+.vfp11_veneer   0x00001948        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00001948        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00001948        0x0
+ .iplt          0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.ARM.extab      0x00001948       0xa8
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text._ZN4Gpio4initEv
+                0x00001948        0x0 ./Sources/main.o
+ .ARM.extab.text._ZN4Gpio18invertCurrentStateEv
+                0x00001948        0x0 ./Sources/main.o
+ .ARM.extab.text._ZN7mkl_PITC2Ev
+                0x00001948        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.extab.text._ZN25mkl_PITInterruptInterruptC2E9PIT_ChPIT
+                0x00001948        0xc ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.extab     0x00001954       0x6c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o)
+ .ARM.extab     0x000019c0       0x30 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(pr-support.o)
+
+.ARM            0x000019f0      0x100
+                0x000019f0                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x000019f0        0x8 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx.text._ZN4Gpio4initEv
+                0x00001ad0        0x0 ./Sources/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN4Gpio18invertCurrentStateEv
+                0x00001ad0        0x0 ./Sources/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._Z5setupv
+                0x00001ad0        0x8 ./Sources/main.o
+ .ARM.exidx.text.PIT_IRQHandler
+                0x00001ad8        0x0 ./Sources/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.main
+                0x00001ad8        0x0 ./Sources/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._Z41__static_initialization_and_destruction_0ii
+                0x00001ad8        0x8 ./Sources/main.o
+ .ARM.exidx.text._GLOBAL__sub_I_pit
+                0x00001ae0        0x0 ./Sources/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT11bindChannelE9PIT_ChPIT
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT21enablePeripheralClockEv
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT22enablePeripheralModuleEv
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT9setPeriodEm
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT11enableTimerEv
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT12disableTimerEv
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT12resetCounterEv
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT17waitInterruptFlagEv
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT18clearInterruptFlagEv
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PIT18isInterruptFlagSetEv
+                0x00001ae0        0x0 ./Sources/mkl_PIT.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.NVIC_EnableIRQ
+                0x00001ae0        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN7mkl_PITC2Ev
+                0x00001ae0        0x0 ./Sources/mkl_PITPeriodicInterrupt.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN25mkl_PITInterruptInterruptC2E9PIT_ChPIT
+                0x00001ae0        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.exidx.text._ZN25mkl_PITInterruptInterrupt23enableInterruptRequestsEv
+                0x00001ae8        0x8 ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.exidx     0x000019f8       0xa0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(unwind-arm.o)
+                                 0xd8 (size before relaxing)
+ .ARM.exidx     0x00001a98       0x38 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(pr-support.o)
+                                 0x48 (size before relaxing)
+                0x00001af0                __exidx_end = .
+
+.rel.dyn        0x00001af0        0x0
+ .rel.iplt      0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.ctors          0x00001af0        0x0
+                0x00001af0                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x00001af0                __CTOR_END__ = .
+
+.dtors          0x00001af0        0x0
+                0x00001af0                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x00001af0                __DTOR_END__ = .
+
+.preinit_array  0x00001af0        0x0
+                0x00001af0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x00001af0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00001af0        0x8
+                0x00001af0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x00001af0        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .init_array    0x00001af4        0x4 ./Sources/main.o
+                0x00001af8                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00001af8        0x4
+                0x00001af8                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00001af8        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+                0x00001afc                PROVIDE (__fini_array_end, .)
+                0x00001afc                __etext = .
+                0x00001afc                __DATA_ROM = .
+
+.mtb            0x1ffff000        0x0
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_start = .
+ *(.mtb_buf)
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_end = .
+
+.data           0x1ffff000       0x68 load address 0x00001afc
+                0x1ffff000                . = ALIGN (0x4)
+                0x1ffff000                __DATA_RAM = .
+                0x1ffff000                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.impure_data
+                0x1ffff000       0x60 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x1ffff060        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+                0x1ffff060                _impure_ptr
+ *(.jcr*)
+ .jcr           0x1ffff064        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .jcr           0x1ffff064        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+                0x1ffff068                . = ALIGN (0x4)
+                0x1ffff068                __data_end__ = .
+                0x00001b64                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+
+.igot.plt       0x1ffff068        0x0 load address 0x00001b64
+ .igot.plt      0x00000000        0x0 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.bss            0x1ffff068       0x34 load address 0x00001b64
+                0x1ffff068                . = ALIGN (0x4)
+                0x1ffff068                __START_BSS = .
+                0x1ffff068                __bss_start__ = .
+ *(.bss)
+ .bss           0x1ffff068       0x1c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ *(.bss*)
+ .bss.pit       0x1ffff084       0x10 ./Sources/main.o
+                0x1ffff084                pit
+ .bss.led       0x1ffff094        0x4 ./Sources/main.o
+                0x1ffff094                led
+ *(COMMON)
+ COMMON         0x1ffff098        0x4 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+                0x1ffff098                errno
+                0x1ffff09c                . = ALIGN (0x4)
+                0x1ffff09c                __bss_end__ = .
+                0x1ffff09c                __END_BSS = .
+
+.heap           0x1ffff09c      0x404 load address 0x00001b98
+                0x1ffff0a0                . = ALIGN (0x8)
+ *fill*         0x1ffff09c        0x4 
+                0x1ffff0a0                __end__ = .
+                0x1ffff0a0                PROVIDE (end, .)
+                0x1ffff0a0                __HeapBase = .
+                0x1ffff4a0                . = (. + HEAP_SIZE)
+ *fill*         0x1ffff0a0      0x400 
+                0x1ffff4a0                __HeapLimit = .
+
+.stack          0x1ffff4a0      0x400 load address 0x00001f9c
+                0x1ffff4a0                . = ALIGN (0x8)
+                0x1ffff8a0                . = (. + STACK_SIZE)
+ *fill*         0x1ffff4a0      0x400 
+                0x20003000                __StackTop = (ORIGIN (m_data) + 0x4000)
+                0x20002c00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x20003000                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x32 ./Sources/main.o
+ .ARM.attributes
+                0x00000097       0x32 ./Sources/mkl_PIT.o
+ .ARM.attributes
+                0x000000c9       0x32 ./Sources/mkl_PITPeriodicInterrupt.o
+ .ARM.attributes
+                0x000000fb       0x1b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .ARM.attributes
+                0x00000116       0x32 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .ARM.attributes
+                0x00000148       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000174       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000001a0       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x000001cc       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000001f8       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000224       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .ARM.attributes
+                0x00000250       0x1e c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
+OUTPUT(P.I.T.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x154e
+ .debug_info    0x00000000      0x3e5 ./Sources/main.o
+ .debug_info    0x000003e5      0x6f7 ./Sources/mkl_PIT.o
+ .debug_info    0x00000adc      0x605 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_info    0x000010e1       0x80 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_info    0x00001161      0x3ed ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_abbrev   0x00000000      0x6ce
+ .debug_abbrev  0x00000000      0x1ad ./Sources/main.o
+ .debug_abbrev  0x000001ad      0x1c9 ./Sources/mkl_PIT.o
+ .debug_abbrev  0x00000376      0x23b ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_abbrev  0x000005b1       0x14 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_abbrev  0x000005c5      0x109 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_aranges  0x00000000      0x158
+ .debug_aranges
+                0x00000000       0x50 ./Sources/main.o
+ .debug_aranges
+                0x00000050       0x78 ./Sources/mkl_PIT.o
+ .debug_aranges
+                0x000000c8       0x48 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_aranges
+                0x00000110       0x20 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_aranges
+                0x00000130       0x28 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_ranges   0x00000000       0xf8
+ .debug_ranges  0x00000000       0x40 ./Sources/main.o
+ .debug_ranges  0x00000040       0x68 ./Sources/mkl_PIT.o
+ .debug_ranges  0x000000a8       0x38 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_ranges  0x000000e0       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_macro    0x00000000     0xa054
+ .debug_macro   0x00000000       0xc0 ./Sources/main.o
+ .debug_macro   0x000000c0      0x826 ./Sources/main.o
+ .debug_macro   0x000008e6       0x16 ./Sources/main.o
+ .debug_macro   0x000008fc       0x1c ./Sources/main.o
+ .debug_macro   0x00000918       0x16 ./Sources/main.o
+ .debug_macro   0x0000092e       0x44 ./Sources/main.o
+ .debug_macro   0x00000972      0x209 ./Sources/main.o
+ .debug_macro   0x00000b7b       0x3a ./Sources/main.o
+ .debug_macro   0x00000bb5       0x3a ./Sources/main.o
+ .debug_macro   0x00000bef       0x26 ./Sources/main.o
+ .debug_macro   0x00000c15      0x306 ./Sources/main.o
+ .debug_macro   0x00000f1b       0x63 ./Sources/main.o
+ .debug_macro   0x00000f7e     0x839f ./Sources/main.o
+ .debug_macro   0x0000931d       0x10 ./Sources/main.o
+ .debug_macro   0x0000932d       0x28 ./Sources/main.o
+ .debug_macro   0x00009355       0x93 ./Sources/mkl_PIT.o
+ .debug_macro   0x000093e8       0x4c ./Sources/mkl_PIT.o
+ .debug_macro   0x00009434       0x9a ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_macro   0x000094ce       0x7e ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x0000954c      0x802 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00009d4e      0x306 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_line     0x00000000      0xc9a
+ .debug_line    0x00000000      0x355 ./Sources/main.o
+ .debug_line    0x00000355      0x35f ./Sources/mkl_PIT.o
+ .debug_line    0x000006b4      0x30f ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_line    0x000009c3       0x7b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_line    0x00000a3e      0x25c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_str      0x00000000    0x327e3
+ .debug_str     0x00000000    0x320b8 ./Sources/main.o
+                              0x324ca (size before relaxing)
+ .debug_str     0x000320b8      0x1b7 ./Sources/mkl_PIT.o
+                              0x322e2 (size before relaxing)
+ .debug_str     0x0003226f      0x2fd ./Sources/mkl_PITPeriodicInterrupt.o
+                              0x32530 (size before relaxing)
+ .debug_str     0x0003256c      0x277 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                              0x31efe (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./Sources/main.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./Sources/mkl_PIT.o
+ .comment       0x00000000       0x71 ./Sources/mkl_PITPeriodicInterrupt.o
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_frame    0x00000000      0x420
+ .debug_frame   0x00000000       0xe0 ./Sources/main.o
+ .debug_frame   0x000000e0      0x190 ./Sources/mkl_PIT.o
+ .debug_frame   0x00000270       0xd0 ./Sources/mkl_PITPeriodicInterrupt.o
+ .debug_frame   0x00000340       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_frame   0x0000038c       0x28 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .debug_frame   0x000003b4       0x2c c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .debug_frame   0x000003e0       0x20 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .debug_frame   0x00000400       0x20 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+
+.stabstr        0x00000000       0x76
+ .stabstr       0x00000000       0x76 c:/program files (x86)/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(getpid.o)
