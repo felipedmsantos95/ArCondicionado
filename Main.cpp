@@ -1,5 +1,4 @@
-/*!
- * @copyright   ï¿½ 2017 UFAM - Universidade Federal do Amazonas.
+/*@copyright   ï¿½ 2017 UFAM - Universidade Federal do Amazonas.
  *
  * @brief       Exemplo de uso da classe dsf_SerialDisplays.
  *
@@ -45,34 +44,57 @@
  * @htmlonly    http://www.gnu.org/copyleft/gpl.html
  */
 
+//Include do Serial Display
 #include <dsf_SerialDisplays.h>
 #include <mkl_PIT.h>
 #include <mkl_PITPeriodicInterrupt.h>
 #include <mkl_GPIOPort.h>
 #include <stdint.h>
 
+//Include da Rotina de Interrupção
+#ifndef C__USERS_DIOGO_CPPLINT_MASTER_MAIN_CPP_
+#define C__USERS_DIOGO_CPPLINT_MASTER_MAIN_CPP_
+#include "MKL25Z4.h"
+#include <gpio.h>
+#include <mkl_PITDelay.h>
+
 
 /*!
- *  Mï¿½todos construtores das classes usadas.
+ *  Metodos construtores das classes usadas.
  */
 mkl_PITInterruptInterrupt pit(PIT_Ch0);
 dsf_SerialDisplays disp(gpio_PTA1, gpio_PTA2,gpio_PTA4);
 
+
 //mkl_GPIOPort a(gpio_PTB19);
+
+/*!
+ *  Definição do objeto led a ser usado.
+ */
+Gpio led;											//PIT
 
 
 /*!
- *  Configuraï¿½ï¿½o do PIT para gerar interrupï¿½ï¿½es periï¿½dicas.
+ *  Configuração do PIT para gerar interrupições periodicas.
  */
   int setupPIT() {
 	 pit.enablePeripheralModule();
 	 pit.setPeriod(0x4e20);
 }
 
+  /*!
+   *  Configuração dos objetos PIT e Led
+   */
+  void setup() {
+    led.init();
+    pit.enablePeripheralModule();
+    pit.setPeriod(0x1406F3F);
+  }
+
 
 /*!
- *  Rotina de Serviï¿½o de Interrupï¿½ï¿½o (ISR) do PIT.
- *  Atualiza as informaï¿½ï¿½es dos displays
+ *  Rotina de Serviço de Interrupição (ISR) do PIT.
+ *  Atualiza as informaçoes dos displays
  */
 extern "C" {
   void PIT_IRQHandler(void) {
@@ -81,19 +103,49 @@ extern "C" {
   }
 }
 
+//Usado na Classe PIT, tem que fazer um merge??
+
+/*!
+ *  Definição da rotina de interrupção do PIT
+
+extern "C" {
+  void PIT_IRQHandler(void) {
+    pit.clearInterruptFlag();
+    led.invertCurrentState();
+  }
+}*/
+
+
 int main() {
   /*!
-   *  Configura PIT para gerar interrupï¿½ï¿½es a cada 10 ms.
+   *  Configura PIT para gerar interrupiçoes a cada 10 ms.
    */
    setupPIT();
   pit.resetCounter();
   pit.enableTimer();
   pit.enableInterruptRequests();
   /*!
-   *  Escreve no display o nï¿½mero "2019".
+   *  Escreve no display o numero "2019".
    */
   disp.clearDisplays();
   disp.writeWord(2300);
   disp.hideZerosRight();
+
+//PitDesable??
+
+  //Função Main do PIT (para testar funcionalidades separadas)
+  setup();
+  pit.resetCounter();
+  pit.enableTimer();
+  led.invertCurrentState();
+  pit.enableInterruptRequests();
+  while (1) {
+    pit.waitInterruptFlag();
+  }
+
+  pit.disableInterruptRequests();
+
   return 0;
 }
+
+#endif  // C__USERS_DIOGO_CPPLINT_MASTER_MAIN_CPP_
