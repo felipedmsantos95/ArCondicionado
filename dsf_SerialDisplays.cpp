@@ -136,7 +136,10 @@ void dsf_SerialDisplays::writeWord(uint16_t bcd) {
   /*!
    *  Armazena na posi��o 3 o valor n�merico de A.
    */
-  storeData[3] = nibble[A];
+  if(A == 0){
+	  storeData[3] = 0xFF;
+  }
+  else storeData[3] = nibble[A];
 
   /*!
    *  Armazena na posi��o 2 o valor n�merico de B.
@@ -146,12 +149,14 @@ void dsf_SerialDisplays::writeWord(uint16_t bcd) {
   /*!
    *  Armazena na posi��o 1 o valor n�merico de C.
    */
-  storeData[1] = nibble[C];
+//  storeData[1] = nibble[C];
+  storeData[1] = 0xFF;
 
   /*!
    *  Armazena na posi��o 0 o valor n�merico de D.
    */
-  storeData[0] = nibble[D];
+//  storeData[0] = nibble[D];
+  storeData[1] = 0xFF;
 }
 
 
@@ -239,36 +244,8 @@ void dsf_SerialDisplays::hideZerosLeft() {
 }
 
 void dsf_SerialDisplays::hideZerosRight() {
-  /*!
-   *  Se o dado na posi��o 3 for 0, logo ele ser� apagado,
-   *  se n�o continua normalmente.
-   */
-  if (storeData[0] == 0xC0) {
-    /*!
-     *  Dado sendo apagado
-     */
-    storeData[0] = 0xFF;
-	/*!
-     *  Se o dado na posi��o 2 for 0, logo ele ser� apagado,
-	 *  se n�o continua normalmente.
-     */
-    if (storeData[1] == 0xC0) {
-      /*!
-       *  Dado sendo apagado.
-       */
-      storeData[1] = 0xFF;
-	  /*!
-       *  Se o dado na posi��o 1 for 0, logo ele ser� apagado,
-	   *  se n�o continua normalmente.
-       */
-      if (storeData[2] == 0xC0) {
-        /*!
-         *  Dado sendo apagado.
-         */
-        storeData[2] = 0xFF;
-      }
-    }
-  }
+	storeData[1] = 0xFF;
+	storeData[0] = 0xFF;
 }
 
 void dsf_SerialDisplays:: sendNibble(char digit) {
