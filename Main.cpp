@@ -13,7 +13,7 @@
 #include <mkl_GPIOPort.h>
 #include <stdint.h>
 
-//Include da Rotina de Interrupção
+//Include da Rotina de Interrupï¿½ï¿½o
 #ifndef C__USERS_DIOGO_CPPLINT_MASTER_MAIN_CPP_
 #define C__USERS_DIOGO_CPPLINT_MASTER_MAIN_CPP_
 #include "MKL25Z4.h"
@@ -32,7 +32,7 @@
 //Include MUX
 #include <MuxCanais.h>
 
-//Definição dos objetos GPIO obs.:
+//Definiï¿½ï¿½o dos objetos GPIO obs.:
 
 //Botoes
 mkl_GPIOPort sleep_T(gpio_PTA1);
@@ -61,13 +61,13 @@ LigaDesliga ld(gpio_PTB19, gpio_PTD1);
 //mkl_GPIOPort a(gpio_PTB19);
 
 /*!
- *  Definição do objeto led a ser usado.
+ *  Definiï¿½ï¿½o do objeto led a ser usado.
  */
 Gpio led;											//PIT
 
 
 /*!
- *  Configuração do PIT para gerar interrupições periodicas.
+ *  Configuraï¿½ï¿½o do PIT para gerar interrupiï¿½ï¿½es periodicas.
  */
 void setup_PIT() {
 	pit.enablePeripheralModule();
@@ -77,7 +77,7 @@ void setup_PIT() {
 	pit.enableInterruptRequests();
 }
 
-// Configuração dos objetos de GPIO
+// Configuraï¿½ï¿½o dos objetos de GPIO
 void setup_GPIO() {
 	rst_T.setPortMode(gpio_input);
 	rst_T.setPullResistor(gpio_pullUpResistor);
@@ -94,13 +94,13 @@ void DebounceReset(){
 
 void DebounceSleep(){
 	tpm.waitDelay(0x1332);
-	NVIC_DisableIRQ(PIT_IRQn); 		// desabilita interrupção do PIT
+	NVIC_DisableIRQ(PIT_IRQn); 		// desabilita interrupï¿½ï¿½o do PIT
 	temp.sleep();
-	NVIC_EnableIRQ(PIT_IRQn); 		// habilita interrupção do PIT
+	NVIC_EnableIRQ(PIT_IRQn); 		// habilita interrupï¿½ï¿½o do PIT
 	ld.cont = 0;
 }
 /*!
- *  Rotina de Serviço de Interrupição (ISR) do PIT.
+ *  Rotina de Serviï¿½o de Interrupiï¿½ï¿½o (ISR) do PIT.
  */
 extern "C" {
   void PIT_IRQHandler(void) {
@@ -117,43 +117,59 @@ extern "C" {
 }
 
 
+void startTemporizador()
+{
+		tpm.setFrequency(tpm_div128);
+		disp.clearDisplays();
+		temp.reset();
+		ld.min = temp.minutos();
+		ld.tem = 0;
+}
+
+void rotinaTemporizador(LigaDesliga ld, mkl_TPMDelay tpm, dsf_SerialDisplays disp)
+{
+	uint8_t flag = 0;
+	if(!b_onoff.readBit()){
+		while(!b_onoff.readBit()){}
+		tpm.waitDelay(0x1332);
+		flag = ~flag;
+	};
+
+	if(flag){
+		if(!rst_T.readBit()){
+			while(!rst_T.readBit()){}
+			DebounceReset();
+		}
+		if(!sleep_T.readBit()){
+			while(!sleep_T.readBit()){}
+			DebounceSleep();
+		}
+		//novafuncao();
+		ld.Liga(temp.minutos(), flag, temp.ledTmrOn());
+		disp.writeWord(ld.tempo);
+		if(temp.disable()){
+			flag = false;
+		}
+	} else {
+		ld.Desliga();
+		temp.reset();
+		disp.clearDisplays();
+	}
+}
+
+
 int main() {
 	setup_PIT();
 	setup_GPIO();
-	uint8_t flag = 0;
-	tpm.setFrequency(tpm_div128);
-	disp.clearDisplays();
-	temp.reset();
-	ld.min = temp.minutos();
-	ld.tem = 0;
-	while (1) {
-		if(!b_onoff.readBit()){
-			while(!b_onoff.readBit()){}
-			tpm.waitDelay(0x1332);
-			flag = ~flag;
-		};
+	startTemporizador();
 
-		if(flag){
-			if(!rst_T.readBit()){
-				while(!rst_T.readBit()){}
-				DebounceReset();
-			}
-			if(!sleep_T.readBit()){
-				while(!sleep_T.readBit()){}
-				DebounceSleep();
-			}
-			//novafuncao();
-			ld.Liga(temp.minutos(), flag, temp.ledTmrOn());
-			disp.writeWord(ld.tempo);
-			if(temp.disable()){
-				flag = false;
-			}
-		} else {
-			ld.Desliga();
-			temp.reset();
-			disp.clearDisplays();
-		}
+	while(1){
+		rotinaTemporizador(ld, tmp, disp);
+
+
 	}
+
+
 	return 0;
 
 }
