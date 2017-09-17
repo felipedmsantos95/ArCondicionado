@@ -13,6 +13,7 @@
 #include <mkl_GPIOPort.h>
 #include <stdint.h>
 
+
 //Include da Rotina de Interrup��o
 #ifndef C__USERS_DIOGO_CPPLINT_MASTER_MAIN_CPP_
 #define C__USERS_DIOGO_CPPLINT_MASTER_MAIN_CPP_
@@ -32,6 +33,18 @@
 //Include MUX
 #include <MuxCanais.h>
 
+//Include Ventilador
+#include "Ventilador.h"
+
+//Include PWM
+#include "mkl_TPMPulseWidthModulation.h"
+
+/*!
+ * Objeto de gera��o de sinal PWM no pino PTD1.
+ */
+mkl_TPMPulseWidthModulation pwm(tpm_PTD1);
+
+
 //Defini��o dos objetos GPIO obs.:
 
 //Botoes
@@ -47,6 +60,7 @@ mkl_GPIOPort b_onoff(gpio_PTD4);
 
 Temporizador temp;
 MuxCanais mux;
+Ventilador vent;
 
 
 /*!
@@ -126,7 +140,7 @@ void startTemporizador()
 		ld.tem = 0;
 }
 
-void rotinaTemporizador(LigaDesliga ld, mkl_TPMDelay tpm, dsf_SerialDisplays disp)
+void rotinaTemporizador(LigaDesliga ld, mkl_TPMDelay tpm, dsf_SerialDisplays disp, Temporizador temp)
 {
 	uint8_t flag = 0;
 	if(!b_onoff.readBit()){
@@ -164,7 +178,7 @@ int main() {
 	startTemporizador();
 
 	while(1){
-		rotinaTemporizador(ld, tmp, disp);
+		rotinaTemporizador(ld, tpm, disp, temp);
 
 
 	}
