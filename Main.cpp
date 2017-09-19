@@ -42,7 +42,7 @@
 /*!
  * Objeto de gera��o de sinal PWM no pino PTD1.
  */
-mkl_TPMPulseWidthModulation pwm(tpm_PTD1);
+mkl_TPMPulseWidthModulation pwm(tpm_PTD3);
 
 
 //Defini��o dos objetos GPIO obs.:
@@ -131,6 +131,16 @@ extern "C" {
 }
 
 
+void delayMs(int time) {
+  int i;
+  int j;
+
+  for (i = 0 ; i < time; i++) {
+    for (j = 0; j < 7000; j++) {}
+  }
+}
+
+
 void startTemporizador()
 {
 		tpm.setFrequency(tpm_div128);
@@ -180,6 +190,14 @@ int main() {
 	while(1){
 		rotinaTemporizador(ld, tpm, disp, temp);
 
+
+		//Teste de Velocidade ok
+		/*vent.selecionaVel(vel1, pwm);
+		delayMs(500);
+		vent.selecionaVel(vel2, pwm);
+		delayMs(500);
+		vent.selecionaVel(vel3, pwm);
+		delayMs(500);*/
 
 	}
 
