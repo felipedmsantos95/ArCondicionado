@@ -149,14 +149,14 @@ void dsf_SerialDisplays::writeWord(uint16_t bcd) {
   /*!
    *  Armazena na posi��o 1 o valor n�merico de C.
    */
-//  storeData[1] = nibble[C];
-  storeData[1] = 0xFF;
+  storeData[1] = nibble[C];
+//  storeData[1] = 0xFF;
 
   /*!
    *  Armazena na posi��o 0 o valor n�merico de D.
    */
-//  storeData[0] = nibble[D];
-  storeData[1] = 0xFF;
+  storeData[0] = nibble[D];
+//  storeData[1] = 0xFF;
 }
 
 

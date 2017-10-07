@@ -10,11 +10,14 @@
 #define SOURCES_VENTILADOR_H_
 
 #include "mkl_TPMPulseWidthModulation.h"
+#include "mkl_RemoteControl.h"
+#include "mkl_TPM.h"
 
 typedef enum {
-  vel1 = 200,
-  vel2 = 500,
-  vel3 = 800
+  vel0 = 0,
+  vel1 = 400,
+  vel2 = 650,
+  vel3 = 999
 
 }vel;
 
@@ -22,10 +25,15 @@ typedef enum {
 
 class Ventilador {
 public:
-	Ventilador();
+	Ventilador(tpm_Pin pin);
 	virtual ~Ventilador();
-	void selecionaVel(vel v, mkl_TPMPulseWidthModulation pwm);
-
+	void desligaVel();
+	void mantemVel();
+	void selecionaVel(vel v);
+	void aumentaVel();//, mkl_RemoteControl rc);
+	void diminuiVel();//, mkl_RemoteControl rc);
+	int selVel = 0;
+	mkl_TPMPulseWidthModulation ventPwm;
 
 };
 

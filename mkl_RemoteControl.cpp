@@ -1,5 +1,5 @@
 /*!
- * @copyright   © 2017 Universidade Federal do Amazonas.
+ * @copyright   ï¿½ 2017 Universidade Federal do Amazonas.
  *
  * @brief       Uma API em C++ para Controle Remoto.
  *
@@ -10,30 +10,30 @@
  * @section     HARDWARES & SOFTWARES
  *              +board        FRDM-KL25Z da NXP.
  *              +processor    MKL25Z128VLK4 - ARM Cortex-M0+
- *              +compiler     Kinetis® Design Studio IDE
+ *              +compiler     Kinetisï¿½ Design Studio IDE
  *              +manual       L25P80M48SF0RM, Rev.3, September 2012
- *              +revisions    Versão (data): Descrição breve.
- *                             ++ 1.0 (12 agosto 2017): Versão inicial.
+ *              +revisions    Versï¿½o (data): Descriï¿½ï¿½o breve.
+ *                             ++ 1.0 (12 agosto 2017): Versï¿½o inicial.
  *
  * @section     AUTHORS & DEVELOPERS
  *              +institution  Universidade Federal do Amazonas
- *              +courses      Engenharia da Computação / Engenharia Elétrica
+ *              +courses      Engenharia da Computaï¿½ï¿½o / Engenharia Elï¿½trica
  *              +teacher      Miguel Grimm <miguelgrimm@gmail.com>
- *              +student      Versão inicial:
+ *              +student      Versï¿½o inicial:
  *                             ++ Jose Luis da Silva <joseluis70123@gmail.com>
  *
  * @section     LICENSE
  *
  *              GNU General Public License (GNU GPL)
  *
- *              Este programa é um software livre; Você pode redistribuí-lo
- *              e/ou modificá-lo de acordo com os termos do "GNU General Public
+ *              Este programa ï¿½ um software livre; Vocï¿½ pode redistribuï¿½-lo
+ *              e/ou modificï¿½-lo de acordo com os termos do "GNU General Public
  *              License" como publicado pela Free Software Foundation; Seja a
- *              versão 3 da licença, ou qualquer versão posterior.
+ *              versï¿½o 3 da licenï¿½a, ou qualquer versï¿½o posterior.
  *
- *              Este programa é distribuído na esperança de que seja útil,
- *              mas SEM QUALQUER GARANTIA; Sem a garantia implícita de
- *              COMERCIALIZAÇÃO OU USO PARA UM DETERMINADO PROPÓSITO.
+ *              Este programa ï¿½ distribuï¿½do na esperanï¿½a de que seja ï¿½til,
+ *              mas SEM QUALQUER GARANTIA; Sem a garantia implï¿½cita de
+ *              COMERCIALIZAï¿½ï¿½O OU USO PARA UM DETERMINADO PROPï¿½SITO.
  *              Veja o site da "GNU General Public License" para mais detalhes.
  *
  * @htmlonly    http://www.gnu.org/copyleft/gpl.html
@@ -47,10 +47,10 @@
 /*!
  *   @fn       mkl_RemoteControl
  *
- *   @brief    Método construtor da classe.
+ *   @brief    Mï¿½todo construtor da classe.
  *
- *   Este é o método construtor padrão da classe e realiza a associação
- *   entre o objeto de software e os periféricos de hardware usados pelo controle.
+ *   Este ï¿½ o mï¿½todo construtor padrï¿½o da classe e realiza a associaï¿½ï¿½o
+ *   entre o objeto de software e os perifï¿½ricos de hardware usados pelo controle.
  *
  *   @param[in]  gpioName - GPIO;
  *               pin - pino do TPM Measure
@@ -63,10 +63,10 @@ mkl_RemoteControl::mkl_RemoteControl(gpio_Name gpioName, tpm_Pin pin) {
 /*!
  * @fn		    setupPeripheral
  *
- * @brief		Configura o periférico on-chip TPM e GPIO para aquisição
+ * @brief		Configura o perifï¿½rico on-chip TPM e GPIO para aquisiï¿½ï¿½o
  * 				de dados do sensor.
- * @details		Utiliza os métodos das classe measure e GPIO para inicializar
- * 				estes periféricos
+ * @details		Utiliza os mï¿½todos das classe measure e GPIO para inicializar
+ * 				estes perifï¿½ricos
  *
  * @param[in]    gpioName - GPIO;
  *               pin - pino do TPM Measure
@@ -89,12 +89,13 @@ void mkl_RemoteControl::setupPeripheral(gpio_Name gpioName, tpm_Pin pin) {
  *
  * @brief		Retorna o comando digitado no controle remoto
  *
- * @details		Converte a sequência de bits armazenados, que correspondem
+ * @details		Converte a sequï¿½ncia de bits armazenados, que correspondem
  * 				aos pulsos, no valor hexadecimal equivalente
  *
  * @return		Retorna o valor hexadecimal do comando digitado no controle
  */
 uint8_t mkl_RemoteControl::readCommand() {
+
   if (f == 0) {
     Command_Ir = command[0]*128 + command[1]*64 + command[2]*32
 	             + command[3]*16 + command[4]*8 + command[5]*4
@@ -114,12 +115,12 @@ uint8_t mkl_RemoteControl::readCommand() {
 /*!
  * @fn			readAddress
  *
- * @brief		Retorna o endereço do controle
+ * @brief		Retorna o endereï¿½o do controle
  *
- * @details		Converte a sequência de bits armazenados, que correspondem
+ * @details		Converte a sequï¿½ncia de bits armazenados, que correspondem
  * 				aos pulsos, no valor hexadecimal equivalente
  *
- * @return		Retorna o valor hexadecimal do endereço do controle
+ * @return		Retorna o valor hexadecimal do endereï¿½o do controle
  */
 uint8_t mkl_RemoteControl::readAddress() {
   if (f == 0) {
@@ -137,11 +138,11 @@ uint8_t mkl_RemoteControl::readAddress() {
 /*!
  * @fn			commandAvailable
  *
- * @brief		Retorna true se ocorreu o início da recepção de um comando
- * 				(start bit) e false caso contrário
+ * @brief		Retorna true se ocorreu o inï¿½cio da recepï¿½ï¿½o de um comando
+ * 				(start bit) e false caso contrï¿½rio
  *
- * @return		Retorna verdadeiro em caso de início da recepção e falso em
- * 				caso contrário
+ * @return		Retorna verdadeiro em caso de inï¿½cio da recepï¿½ï¿½o e falso em
+ * 				caso contrï¿½rio
  */
 bool mkl_RemoteControl::commandAvailable() {
   if (flagStart == true) {
@@ -154,14 +155,14 @@ bool mkl_RemoteControl::commandAvailable() {
 /*!
  * @fn			waitCommandAvailable
  *
- * @brief		Espera o comando chegar(término do start bit, dados e o
+ * @brief		Espera o comando chegar(tï¿½rmino do start bit, dados e o
  * 				stop bit) e se ocorrer erro, retorna mkl_parityError,
  * 				mkl_overwriteError
  *
  * @details		Mede o tempo que o sinal passa em baixo mais o tempo que o
  * 				sinal passa em alto e define se os pulsos analisados
- * 				correspondem a um bit 1, ou bit 0. Além de identificar erros
- * 				retornando para um tratamento de exceções
+ * 				correspondem a um bit 1, ou bit 0. Alï¿½m de identificar erros
+ * 				retornando para um tratamento de exceï¿½ï¿½es
  *
  * @return		Retorna o erro encontrado,mkl_parityError ou mkl_overwriteError
  */
@@ -169,8 +170,8 @@ Exception_t mkl_RemoteControl::waitCommandAvailable() {
   flagEndData = false;
   flagStart = false;
   commandAvailable();
-  __disable_irq();
-  f = f+1;
+  //__disable_irq();
+  f = f;
   tpm0.resetMeasure();
 
   for (i=0; i <= 31; i++) {
@@ -187,7 +188,7 @@ Exception_t mkl_RemoteControl::waitCommandAvailable() {
   flagEndData = true;
 
   for (j = 0; j < 8; j++) {
-    adress[j] = dado[j];
+    adress[j] = dado[j];//dado[j]
   }
 
   for (j = 0; j < 8; j++) {
@@ -207,7 +208,7 @@ Exception_t mkl_RemoteControl::waitCommandAvailable() {
 /*!
  * @fn			setStartCommand
  *
- * @brief		Indica no objeto de software que está chegando um start bit
+ * @brief		Indica no objeto de software que estï¿½ chegando um start bit
  */
 void mkl_RemoteControl::setStartCommand() {
   flagStart = true;
@@ -220,7 +221,7 @@ void mkl_RemoteControl::setStartCommand() {
 /*!
  * @fn			clearInterruptFlag
  *
- * @brief		Habilita a recepção do controle remoto para operar
+ * @brief		Habilita a recepï¿½ï¿½o do controle remoto para operar
  */
 void mkl_RemoteControl::clearInterruptFlag() {
   flagInterrupt = true;
@@ -231,7 +232,7 @@ void mkl_RemoteControl::clearInterruptFlag() {
 /*!
  * @fn			enableInterrupt
  *
- * @brief		Habilita a recepção do controle remoto via interrupção
+ * @brief		Habilita a recepï¿½ï¿½o do controle remoto via interrupï¿½ï¿½o
  */
 void mkl_RemoteControl::enableInterrupt() {
   gpio.enableInterrupt();
@@ -241,7 +242,7 @@ void mkl_RemoteControl::enableInterrupt() {
 /*!
  * @fn			disableInterrupt
  *
- * @brief		Desabilita a recepção do controle remoto via interrupção
+ * @brief		Desabilita a recepï¿½ï¿½o do controle remoto via interrupï¿½ï¿½o
  */
 void mkl_RemoteControl::disableInterrupt() {
   gpio.disableInterrupt();

@@ -3,7 +3,7 @@
  */
 
 /*!
- * @brief       Interface da API em C++ da classe mãe GPIO.
+ * @brief       Interface da API em C++ da classe mï¿½e GPIO.
  *
  * @file        mkl_GPIO.h
  * @version     1.0
@@ -12,29 +12,29 @@
  * @section     HARDWARES & SOFTWARES
  *              +board        FRDM-KL25Z da NXP.
  *              +processor    MKL25Z128VLK4 - ARM Cortex-M0+
- *              +compiler     Kinetis® Design Studio IDE
+ *              +compiler     Kinetisï¿½ Design Studio IDE
  *              +manual       L25P80M48SF0RM, Rev.3, September 2012
- *              +revisions    Versão (data): Descrição breve.
- *                             ++ 1.0 (30 Julho 2017): Versão inicial.
+ *              +revisions    Versï¿½o (data): Descriï¿½ï¿½o breve.
+ *                             ++ 1.0 (30 Julho 2017): Versï¿½o inicial.
  *
  * @section     AUTHORS & DEVELOPERS
  *              +institution  Universidade Federal do Amazonas
- *              +courses      Engenharia da Computação / Engenharia Elétrica
+ *              +courses      Engenharia da Computaï¿½ï¿½o / Engenharia Elï¿½trica
  *              +teacher      Miguel Grimm <miguelgrimm@gmail.com>
- *              +student      Versão inicial:
+ *              +student      Versï¿½o inicial:
  *                             ++ Hamilton Nascimento <hdan_neto@hotmail.com>
  *
  * @copyright   GNU General Public License (GNU GPL)
 *
  * @section     LICENSE
- *              Este programa é um software livre; Você pode redistribuí-lo
- *              e/ou modificá-lo de acordo com os termos do "GNU General Public
+ *              Este programa ï¿½ um software livre; Vocï¿½ pode redistribuï¿½-lo
+ *              e/ou modificï¿½-lo de acordo com os termos do "GNU General Public
  *              License" como publicado pela Free Software Foundation; Seja a
- *              versão 3 da licença, ou qualquer versão posterior.
+ *              versï¿½o 3 da licenï¿½a, ou qualquer versï¿½o posterior.
  *
- *              Este programa é distribuído na esperança de que seja útil,
- *              mas SEM QUALQUER GARANTIA; Sem a garantia implícita de
- *              COMERCIALIZAÇÃO OU USO PARA UM DETERMINADO PROPÓSITO.
+ *              Este programa ï¿½ distribuï¿½do na esperanï¿½a de que seja ï¿½til,
+ *              mas SEM QUALQUER GARANTIA; Sem a garantia implï¿½cita de
+ *              COMERCIALIZAï¿½ï¿½O OU USO PARA UM DETERMINADO PROPï¿½SITO.
  *              Veja o site da "GNU General Public License" para mais detalhes.
  *
  * @htmlonly    http://www.gnu.org/copyleft/gpl.html
@@ -47,7 +47,7 @@
 #include <MKL25Z4.h>
 
 /*!
- * Namespace de definição dos GPIOs e pinos implementados.
+ * Namespace de definiï¿½ï¿½o dos GPIOs e pinos implementados.
  */
 typedef enum {
   gpio_GPIOA = 0 << 8,
@@ -114,7 +114,7 @@ typedef enum {
 }gpio_Pin;
 
 /*!
- * Namespace de definição dos tipos de pull resistor.
+ * Namespace de definiï¿½ï¿½o dos tipos de pull resistor.
  */
 typedef enum {
   gpio_pullNoneResistor = 0,
@@ -122,7 +122,7 @@ typedef enum {
 }gpio_PullResistor;
 
 /*!
- * Namespace de definição dos modos de operação do pino.
+ * Namespace de definiï¿½ï¿½o dos modos de operaï¿½ï¿½o do pino.
  */
 typedef enum {
   gpio_input  = 0,
@@ -132,68 +132,69 @@ typedef enum {
 /*!
  *  @class    mkl_GPIO_ocp
  *
- *  @brief    Classe de implementação do periférico GPIO para a placa KL25Z128.
+ *  @brief    Classe de implementaï¿½ï¿½o do perifï¿½rico GPIO para a placa KL25Z128.
  *
- *  @details  Esta classe é usada para leitura ou escrita de dados binários
- *            e usa o periférico on-chip GPIOA a GPIOE.
+ *  @details  Esta classe ï¿½ usada para leitura ou escrita de dados binï¿½rios
+ *            e usa o perifï¿½rico on-chip GPIOA a GPIOE.
  *
  *  @section  EXAMPLES USAGE
  *
- *            Uso dos métodos como porta de entrada.
+ *            Uso dos mï¿½todos como porta de entrada.
  *	           +fn setPortMode(PortMode_t::Input);
  *	           +fn setPullResistor(PullResistor_t::PullNoneResistor);
  *             +fn setPullResistor(mkl_PullUp);
  *             +fn data = readBit();
  *
- *            Uso dos métodos como porta de saída.
+ *            Uso dos mï¿½todos como porta de saï¿½da.
  *	           +fn setPortMode(PortMode_t::Output);
  *             +fn writeBit(data);
  */
 class mkl_GPIO {
  public:
   /*!
-   * Métodos de configuração do pino.
+   * Mï¿½todos de configuraï¿½ï¿½o do pino.
    */
   void setPortMode(gpio_PortMode mode);
   void setPullResistor(gpio_PullResistor pull);
   /*!
-   * Métodos de escrita no pino.
+   * Mï¿½todos de escrita no pino.
    */
   void writeBit(int bit);
   void toogleBit();
   /*!
-   * Método de leitura do pino.
+   * Mï¿½todo de leitura do pino.
    */
   int readBit();
 
  protected:
   /*!
-   * Endereço do registrador PDDR no mapa de memória.
+   * Endereï¿½o do registrador PDDR no mapa de memï¿½ria.
    */
   volatile uint32_t *addressPDDR;
   /*!
-   * Endereço do registrador PDOR no mapa de memória.
+   * Endereï¿½o do registrador PDOR no mapa de memï¿½ria.
    */
   volatile uint32_t *addressPDOR;
   /*!
-   * Endereço do registrador PDIR no mapa de memória.
+   * Endereï¿½o do registrador PDIR no mapa de memï¿½ria.
    */
   volatile uint32_t *addressPDIR;
   /*!
-   * Endereço do registrador PTOR no mapa de memória.
+   * Endereï¿½o do registrador PTOR no mapa de memï¿½ria.
    */
   volatile uint32_t *addressPTOR;
   /*!
-   * Endereço do registrador Port PCR no mapa de memória.
+   * Endereï¿½o do registrador Port PCR no mapa de memï¿½ria.
    */
   volatile uint32_t *addressPortxPCRn;
+  volatile uint32_t *port_pcr_isfr;
   /*!
-   * Máscara do pino correspondente para uso nas operações de
-   * configuração, leitura e escrita.
+   * Mï¿½scara do pino correspondente para uso nas operaï¿½ï¿½es de
+   * configuraï¿½ï¿½o, leitura e escrita.
    */
   volatile uint32_t pinPort;
   /*!
-   * Métodos privados de inicialização do periférico.
+   * Mï¿½todos privados de inicializaï¿½ï¿½o do perifï¿½rico.
    */
   void bindPeripheral(uint8_t GPIONumber, uint8_t pinNumber);
   void enableModuleClock(uint8_t GPIONumber);
