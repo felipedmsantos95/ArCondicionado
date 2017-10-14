@@ -18,7 +18,7 @@
  *
  *  @brief    A classe LigaDesliga representa o bloco LigaDesliga do Ar Condicionado Digital
  *
- *  @details  Esta classe realiza as funções de debounce dos botoes sleep, reset e funções do bloco OnOff
+ *  @details  Esta classe realiza as funï¿½ï¿½es de debounce dos botoes sleep, reset e funï¿½ï¿½es do bloco OnOff
  *
  *  @section  EXAMPLES USAGE
  *

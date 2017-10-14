@@ -1,7 +1,7 @@
 /*!
- * @copyright   © 2017 Universidade Federal do Amazonas.
+ * @copyright   ï¿½ 2017 Universidade Federal do Amazonas.
  *
- * @brief       Implementação da classe em C++ do periférico DHT11.
+ * @brief       Implementaï¿½ï¿½o da classe em C++ do perifï¿½rico DHT11.
  * @file        mkl_DHT11Sensor.cpp
  * @version     1.0
  * @date        06 Julho 2017
@@ -9,30 +9,30 @@
  * @section     HARDWARES & SOFTWARES
  *              +board        FRDM-KL25Z da NXP.
  *              +processor    MKL25Z128VLK4 - ARM Cortex-M0+.
- *              +compiler     Kinetis® Design Studio IDE.
+ *              +compiler     Kinetisï¿½ Design Studio IDE.
  *              +manual       L25P80M48SF0RM, Rev.3, September 2012.
- *              +revisions    Versão (data): Descrição breve.
- *                             ++ 1.0 (03 Setembro 2017): Versão inicial.
+ *              +revisions    Versï¿½o (data): Descriï¿½ï¿½o breve.
+ *                             ++ 1.0 (03 Setembro 2017): Versï¿½o inicial.
  *
  * @section     AUTHORS & DEVELOPERS
  *              +institution  Universidade Federal do Amazonas.
- *              +courses      Engenharia da Computação / Engenharia Elétrica.
+ *              +courses      Engenharia da Computaï¿½ï¿½o / Engenharia Elï¿½trica.
  *              +teacher      Miguel Grimm <miguelgrimm@gmail.com>
- *              +student      Versão inicial:
+ *              +student      Versï¿½o inicial:
  *                             ++ Hamilton Nascimento <hdan_neto@hotmail.com>
  *
  * @section     LICENSE
  *
  *              GNU General Public License (GNU GPL).
  *
- *              Este programa é um software livre; Você pode redistribuí-lo
- *              e/ou modificá-lo de acordo com os termos do "GNU General Public
+ *              Este programa ï¿½ um software livre; Vocï¿½ pode redistribuï¿½-lo
+ *              e/ou modificï¿½-lo de acordo com os termos do "GNU General Public
  *              License" como publicado pela Free Software Foundation; Seja a
- *              versão 3 da licença, ou qualquer versão posterior.
+ *              versï¿½o 3 da licenï¿½a, ou qualquer versï¿½o posterior.
  *
- *              Este programa é distribuído na esperança de que seja útil,
- *              mas SEM QUALQUER GARANTIA; Sem a garantia implícita de
- *              COMERCIALIZAÇÃO OU USO PARA UM DETERMINADO PROPÓSITO.
+ *              Este programa ï¿½ distribuï¿½do na esperanï¿½a de que seja ï¿½til,
+ *              mas SEM QUALQUER GARANTIA; Sem a garantia implï¿½cita de
+ *              COMERCIALIZAï¿½ï¿½O OU USO PARA UM DETERMINADO PROPï¿½SITO.
  *              Veja o site da "GNU General Public License" para mais detalhes.
  *
  * @htmlonly    http://www.gnu.org/copyleft/gpl.html
@@ -44,10 +44,10 @@
 /*!
  *  @fn       mkl_DHT11Sensor
  *
- *  @brief    Configura o periférico TPM e o GPIO para uso com o
- *            periférico off-chip.
+ *  @brief    Configura o perifï¿½rico TPM e o GPIO para uso com o
+ *            perifï¿½rico off-chip.
  *
- *  @param    TPMNumber - periférico TPM desejado para uso com o sensor.
+ *  @param    TPMNumber - perifï¿½rico TPM desejado para uso com o sensor.
  *            pin - pino do GPIO desejado para uso com o sensor.
  */
 mkl_DHT11Sensor::mkl_DHT11Sensor(tpm_TPMNumberMask TPMNumber,
@@ -55,7 +55,7 @@ mkl_DHT11Sensor::mkl_DHT11Sensor(tpm_TPMNumberMask TPMNumber,
                                         :tpm(TPMNumber),
                                          gpio(pin) {
   /*!
-   * Ajusta a frequência de operação do TPM.
+   * Ajusta a frequï¿½ncia de operaï¿½ï¿½o do TPM.
    */
   tpm.setFrequency(tpm_div1);
 }
@@ -63,15 +63,15 @@ mkl_DHT11Sensor::mkl_DHT11Sensor(tpm_TPMNumberMask TPMNumber,
 /*!
  *  @fn       doAcquisition
  *
- *  @brief    Realiza uma aquisição de dados de temperatura e
- *            umidade no periférico do sensor DHT11 e armazena
+ *  @brief    Realiza uma aquisiï¿½ï¿½o de dados de temperatura e
+ *            umidade no perifï¿½rico do sensor DHT11 e armazena
  *            os dados nos atributos correspondentes
  *            no objeto de software.
  *
- *  @return   dht11_ok           - se a aquisição for realizada com sucesso.
- *            dht11_timeoutError - se não houver resposta do sensor.
+ *  @return   dht11_ok           - se a aquisiï¿½ï¿½o for realizada com sucesso.
+ *            dht11_timeoutError - se nï¿½o houver resposta do sensor.
  *            dht11_parityError  - se os dados enviados pelo sensor.
- *                                 não corresponderem ao byte de paridade.
+ *                                 nï¿½o corresponderem ao byte de paridade.
  */
 dht11_Exception mkl_DHT11Sensor::doAcquisition() {
   /*!
@@ -93,7 +93,7 @@ dht11_Exception mkl_DHT11Sensor::doAcquisition() {
   }
 
   /*!
-   * Realiza a aquisição de dados de temperatura e umidade.
+   * Realiza a aquisiï¿½ï¿½o de dados de temperatura e umidade.
    */
   return readSensorData();
 }
@@ -101,22 +101,22 @@ dht11_Exception mkl_DHT11Sensor::doAcquisition() {
 /*!
  *  @fn       readTemperature
  *
- *  @brief    Lê a temperatura armazenada no atributo do objeto sensor.
+ *  @brief    Lï¿½ a temperatura armazenada no atributo do objeto sensor.
  *
- *  @param    temp - variável em que o valor de temperatura
- *            obtido será armzenado.
+ *  @param    temp - variï¿½vel em que o valor de temperatura
+ *            obtido serï¿½ armzenado.
  */
-void mkl_DHT11Sensor::readTemperature(uint8_t *temp) {
+void mkl_DHT11Sensor::readTemperature(int *temp) {
   *temp = temperature;
 }
 
 /*!
  *  @fn       readUmidity
  *
- *  @brief    Lê a umidade armazenada no atributo do objeto sensor.
+ *  @brief    Lï¿½ a umidade armazenada no atributo do objeto sensor.
  *
- *  @param    umidity - variável em que o valor de umidade
- *            obtido será armzenado.
+ *  @param    umidity - variï¿½vel em que o valor de umidade
+ *            obtido serï¿½ armzenado.
  */
 void mkl_DHT11Sensor::readUmidity(uint8_t *umid) {
   *umid = umidity;
@@ -125,19 +125,19 @@ void mkl_DHT11Sensor::readUmidity(uint8_t *umid) {
 /*!
  *  @fn       readSensorData
  *
- *  @brief    Armazena o tempo que o barramento ficou em nível lógico alto
+ *  @brief    Armazena o tempo que o barramento ficou em nï¿½vel lï¿½gico alto
  *            em um vetor de inteiros.
  *
  *  @return   dht11_ok           - se as leituras forem realizadas com sucesso
- *            dht11_timeoutError - se não houver resposta do sensor.
+ *            dht11_timeoutError - se nï¿½o houver resposta do sensor.
  */
 dht11_Exception mkl_DHT11Sensor::readSensorData() {
   int i;
   uint16_t time[40];
 
   /*!
-   * Realiza a medição de 40 tempos (pois são 40 bits) em que o sinal
-   * permaneceu em nível lógico alto.
+   * Realiza a mediï¿½ï¿½o de 40 tempos (pois sï¿½o 40 bits) em que o sinal
+   * permaneceu em nï¿½vel lï¿½gico alto.
    */
   for (i = 0; i < 40; i++) {
     if (!wait(1)) {
@@ -148,7 +148,7 @@ dht11_Exception mkl_DHT11Sensor::readSensorData() {
     }
 
     /*!
-     * Lê o tempo correspondente no periférico TPM.
+     * Lï¿½ o tempo correspondente no perifï¿½rico TPM.
      */
     tpm.getCounter(&time[i]);
 
@@ -168,28 +168,28 @@ dht11_Exception mkl_DHT11Sensor::readSensorData() {
 /*!
  *  @fn       wait
  *
- *  @brief    Mede o tempo em que o barramento ficou no nível lógico passado
- *            por parâmetro.
+ *  @brief    Mede o tempo em que o barramento ficou no nï¿½vel lï¿½gico passado
+ *            por parï¿½metro.
  *
  *  @param    bit - o bit que se deseja medir o tempo.
  *
  *  @return   0 - se houver transbordamento do fundo de escala
  *            do temporizador.
- *            1 - se não houver transbordamento do fundo de escala
+ *            1 - se nï¿½o houver transbordamento do fundo de escala
  *            do temporizador.
  */
 int mkl_DHT11Sensor::wait(int bit) {
   uint8_t data;
 
   /*!
-   * Inicia uma temporização.
+   * Inicia uma temporizaï¿½ï¿½o.
    */
   tpm.startDelay(0xFFFF);
 
   /*!
-   * Prende até que o dado lido seja diferente daquele especificado
-   * no parâmetro ou até que haja transbordamento do fundo de escala
-   * do periférico TPM.
+   * Prende atï¿½ que o dado lido seja diferente daquele especificado
+   * no parï¿½metro ou atï¿½ que haja transbordamento do fundo de escala
+   * do perifï¿½rico TPM.
    */
   do {
     data = gpio.readBit();
@@ -209,7 +209,7 @@ int mkl_DHT11Sensor::wait(int bit) {
  *
  *  @brief    Aguarda a resposta do sensor ao comando inicial enviado.
  *
- *  @return   0 - se não resposta do sensor ao comando enviado.
+ *  @return   0 - se nï¿½o resposta do sensor ao comando enviado.
  *            1 - se o sensor responder ao comando enviado.
  */
 int mkl_DHT11Sensor::waitResponse() {
@@ -231,19 +231,19 @@ int mkl_DHT11Sensor::waitResponse() {
 /*!
  *  @fn       startCommunication
  *
- *  @brief    Inicia a comunicação com o sensor, escrevendo
+ *  @brief    Inicia a comunicaï¿½ï¿½o com o sensor, escrevendo
  *            '0' no barramento por 20 ms.
  */
 void mkl_DHT11Sensor::startCommunication() {
   int i;
 
   /*!
-   * Configura o pino do GPIO para atuar como saída.
+   * Configura o pino do GPIO para atuar como saï¿½da.
    */
   gpio.setPortMode(gpio_output);
 
   /*!
-   * Escreve '0' na saída do GPIO e aguarda 20 ms.
+   * Escreve '0' na saï¿½da do GPIO e aguarda 20 ms.
    */
   gpio.writeBit(0);
   for (i = 0; i < 7; i++) {
@@ -251,7 +251,7 @@ void mkl_DHT11Sensor::startCommunication() {
   }
 
   /*!
-   * Escreve '1' na saída do GPIO e aguarda 1 ms.
+   * Escreve '1' na saï¿½da do GPIO e aguarda 1 ms.
    */
   gpio.writeBit(1);
   tpm.waitDelay(1000);
@@ -266,7 +266,7 @@ void mkl_DHT11Sensor::startCommunication() {
  *  @return   0 - se a soma dos bytes de temperatura e umidade
  *            corresponder ao byte de paridade enviado.
  *            1 - se a soma dos bytes de temperatura e umidade
- *            não corresponder ao byte de paridade enviado.
+ *            nï¿½o corresponder ao byte de paridade enviado.
  */
 int mkl_DHT11Sensor::checkSum() {
   if (temperature + umidity != verifyByte) {
@@ -277,30 +277,30 @@ int mkl_DHT11Sensor::checkSum() {
 /*!
  *  @fn       readPackage
  *
- *  @brief    Lê os tempos medidos, atribui o bit equivalente a cada tempo
+ *  @brief    Lï¿½ os tempos medidos, atribui o bit equivalente a cada tempo
  *            e armazena o valor de temperatura e umidade correspondente.
  *
  *  @return   dht11_ok           - se a paridade dos bytes de umidade e
  *                               temperatura corresponderem ao byte de
  *                               paridade enviado.
  *            dht11_parityError  - se a paridade dos bytes de umidade e
- *                               temperatura não corresponderem ao byte de
+ *                               temperatura nï¿½o corresponderem ao byte de
  *                               paridade enviado.
  */
 dht11_Exception mkl_DHT11Sensor::readPackage(uint16_t time[40]) {
   int i;
 
   /*!
-   * Inicializa as variáveis de temperatura, umidade e de paridade.
+   * Inicializa as variï¿½veis de temperatura, umidade e de paridade.
    */
   umidity = 0;
   temperature = 0;
   verifyByte = 0;
   /*!
-   * Verifica se o tempo armazenado é superior a 30 us.
-   * Caso seja, o bit é assinalado como '1' e é realizado o deslocamento
-   * para a esquerda na variável de umidade e o bit '1' é inserido na último
-   * bit da variável.
+   * Verifica se o tempo armazenado ï¿½ superior a 30 us.
+   * Caso seja, o bit ï¿½ assinalado como '1' e ï¿½ realizado o deslocamento
+   * para a esquerda na variï¿½vel de umidade e o bit '1' ï¿½ inserido na ï¿½ltimo
+   * bit da variï¿½vel.
    */
   for (i = 0; i < 8; i++) {
     umidity = umidity << 1;
@@ -309,10 +309,10 @@ dht11_Exception mkl_DHT11Sensor::readPackage(uint16_t time[40]) {
     }
   }
   /*!
-   * Verifica se o tempo armazenado é superior a 30 us.
-   * Caso seja, o bit é assinalado como '1' e é realizado o deslocamento
-   * para a esquerda na variável de temperatura e o bit '1' é inserido na último
-   * bit da variável.
+   * Verifica se o tempo armazenado ï¿½ superior a 30 us.
+   * Caso seja, o bit ï¿½ assinalado como '1' e ï¿½ realizado o deslocamento
+   * para a esquerda na variï¿½vel de temperatura e o bit '1' ï¿½ inserido na ï¿½ltimo
+   * bit da variï¿½vel.
    */
   for (i = 16; i < 24; i++) {
     temperature = temperature << 1;
@@ -322,10 +322,10 @@ dht11_Exception mkl_DHT11Sensor::readPackage(uint16_t time[40]) {
   }
 
   /*!
-   * Verifica se o tempo armazenado é superior a 30 us.
-   * Caso seja, o bit é assinalado como '1' e é realizado o deslocamento
-   * para a esquerda na variável de paridade e o bit '1' é inserido na último
-   * bit da variável.
+   * Verifica se o tempo armazenado ï¿½ superior a 30 us.
+   * Caso seja, o bit ï¿½ assinalado como '1' e ï¿½ realizado o deslocamento
+   * para a esquerda na variï¿½vel de paridade e o bit '1' ï¿½ inserido na ï¿½ltimo
+   * bit da variï¿½vel.
    */
   for (i = 32; i < 40; i++) {
     verifyByte = verifyByte << 1;
@@ -335,11 +335,11 @@ dht11_Exception mkl_DHT11Sensor::readPackage(uint16_t time[40]) {
   }
 
   /*!
-   * Realiza a verificação da paridade dos dados enviados pelo sensor.
+   * Realiza a verificaï¿½ï¿½o da paridade dos dados enviados pelo sensor.
    */
   if (!checkSum()) {
 	/*!
-	 * A paridade dos dados enviados não corresponde ao byte de paridade.
+	 * A paridade dos dados enviados nï¿½o corresponde ao byte de paridade.
 	 */
     return dht11_parityError;
   }

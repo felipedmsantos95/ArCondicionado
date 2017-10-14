@@ -43,7 +43,7 @@ MuxCanais mux;
 Ventilador vent(tpm_PTD3);
 
 mkl_DHT11Sensor dht11(tpm_TPM1, gpio_PTC1);
-uint8_t temperatura;
+int temperatura;
 uint8_t umidade;
 dht11_Exception excecao;
 
@@ -92,7 +92,7 @@ void DebounceFan(){
 extern "C" {
   void PIT_IRQHandler(void) {
 	  disp.updateDisplays();
-	  disp.hideZerosRight();
+	 // disp.hideZerosRight();
 	  disp.hideZerosLeft();
 	  pit.clearInterruptFlag();
 	  ld.cont++;
@@ -106,6 +106,8 @@ extern "C" {
 int main() {
 	setup_PIT();
 	setup_GPIO();
+	mkl_DHT11Sensor dht11(tpm_TPM1, gpio_PTC1);
+
 	excecao = dht11.doAcquisition();
 	uint8_t flag = 0;
 	tpm.setFrequency(tpm_div128);
@@ -140,7 +142,8 @@ int main() {
 			//novafuncao();
 			vent.mantemVel();
 			ld.Liga(temp.minutos(), flag, temp.ledTmrOn());
-			disp.writeWord(ld.tempo+temperatura);
+			int mostra = ld.tempo + temperatura;
+			disp.writeWord(mostra);
 			if(temp.disable()){
 				flag = false;
 			}

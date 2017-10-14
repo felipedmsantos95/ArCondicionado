@@ -1,7 +1,7 @@
 /*!
- * @copyright   © 2017 Universidade Federal do Amazonas.
+ * @copyright   ï¿½ 2017 Universidade Federal do Amazonas.
  *
- * @brief       Interface da API em C++ do periférico sensor DHT11.
+ * @brief       Interface da API em C++ do perifï¿½rico sensor DHT11.
  * @file        mkl_DHT11Sensor.h
  * @version     1.0
  * @date        16 Julho 2017
@@ -9,30 +9,30 @@
  * @section     HARDWARES & SOFTWARES
  *              +board        FRDM-KL25Z da NXP.
  *              +processor    MKL25Z128VLK4 - ARM Cortex-M0+.
- *              +compiler     Kinetis® Design Studio IDE.
+ *              +compiler     Kinetisï¿½ Design Studio IDE.
  *              +manual       L25P80M48SF0RM, Rev.3, September 2012.
- *              +revisions    Versão (data): Descrição breve.
- *                             ++ 1.0 (03 Setembro 2017): Versão inicial.
+ *              +revisions    Versï¿½o (data): Descriï¿½ï¿½o breve.
+ *                             ++ 1.0 (03 Setembro 2017): Versï¿½o inicial.
  *
  * @section     AUTHORS & DEVELOPERS
  *              +institution  Universidade Federal do Amazonas.
- *              +courses      Engenharia da Computação / Engenharia Elétrica.
+ *              +courses      Engenharia da Computaï¿½ï¿½o / Engenharia Elï¿½trica.
  *              +teacher      Miguel Grimm <miguelgrimm@gmail.com>
- *              +student      Versão inicial:
+ *              +student      Versï¿½o inicial:
  *                             ++ Hamilton Nascimento <hdan_neto@hotmail.com>
  *
  * @section     LICENSE
  *
  *              GNU General Public License (GNU GPL).
  *
- *              Este programa é um software livre; Você pode redistribuí-lo
- *              e/ou modificá-lo de acordo com os termos do "GNU General Public
+ *              Este programa ï¿½ um software livre; Vocï¿½ pode redistribuï¿½-lo
+ *              e/ou modificï¿½-lo de acordo com os termos do "GNU General Public
  *              License" como publicado pela Free Software Foundation; Seja a
- *              versão 3 da licença, ou qualquer versão posterior.
+ *              versï¿½o 3 da licenï¿½a, ou qualquer versï¿½o posterior.
  *
- *              Este programa é distribuído na esperança de que seja útil,
- *              mas SEM QUALQUER GARANTIA; Sem a garantia implícita de
- *              COMERCIALIZAÇÃO OU USO PARA UM DETERMINADO PROPÓSITO.
+ *              Este programa ï¿½ distribuï¿½do na esperanï¿½a de que seja ï¿½til,
+ *              mas SEM QUALQUER GARANTIA; Sem a garantia implï¿½cita de
+ *              COMERCIALIZAï¿½ï¿½O OU USO PARA UM DETERMINADO PROPï¿½SITO.
  *              Veja o site da "GNU General Public License" para mais detalhes.
  *
  * @htmlonly    http://www.gnu.org/copyleft/gpl.html
@@ -54,15 +54,15 @@ typedef enum {
 /*!
  *  @class    mkl_DHT11Sensor
  *
- *  @brief    A classe mkl_DHT11Sensor representa o periférico off-chip
+ *  @brief    A classe mkl_DHT11Sensor representa o perifï¿½rico off-chip
  *            Sensor de Temperatura DHT11.
  *
- *  @details  Esta classe é usada a aquisição de dados de temperatura e umidade
+ *  @details  Esta classe ï¿½ usada a aquisiï¿½ï¿½o de dados de temperatura e umidade
  *            proveniente do sensor.
  *
  *  @section  EXAMPLES USAGE
  *
- *            Uso dos métodos como porta de entrada
+ *            Uso dos mï¿½todos como porta de entrada
  *	           +fn doAcquisition();
  *	           +fn readUmidity(&umidade);
  *             +fn readTemperature(&temperatura);
@@ -70,18 +70,18 @@ typedef enum {
 class mkl_DHT11Sensor {
  public:
   /*!
-   * Método construtor padrão da classe.
+   * Mï¿½todo construtor padrï¿½o da classe.
    */
   mkl_DHT11Sensor(tpm_TPMNumberMask TPMNumber = tpm_TPM0,
                   gpio_Pin pin = gpio_PTA1);
   /*!
-   * Método de aquisição de dados.
+   * Mï¿½todo de aquisiï¿½ï¿½o de dados.
    */
   dht11_Exception doAcquisition();
  /*!
-  * Métodos de leitura de dados já adquiridos.
+  * Mï¿½todos de leitura de dados jï¿½ adquiridos.
   */
-  void readTemperature(uint8_t *temp);
+  void readTemperature(int *temp);
   void readUmidity(uint8_t *umid);
 
  private:
@@ -101,27 +101,27 @@ class mkl_DHT11Sensor {
   uint8_t umidity, temperature, verifyByte;
 
   /*!
-   * Método de leitura do sensor.
+   * Mï¿½todo de leitura do sensor.
    */
   dht11_Exception readSensorData();
 
   /*!
-   * Métodos de aguardar a resposta do sensor.
+   * Mï¿½todos de aguardar a resposta do sensor.
    */
   int wait(int bit);
   int waitResponse();
 
   /*!
-   * Método de iniciar a comunicação com o sensor.
+   * Mï¿½todo de iniciar a comunicaï¿½ï¿½o com o sensor.
    */
   void startCommunication();
 
   /*!
-   * Método de verificar a paridade dos dados enviados pelo sensor.
+   * Mï¿½todo de verificar a paridade dos dados enviados pelo sensor.
    */
   int checkSum();
   /*!
-   * Método de associação do tempo em que o sinal permaneceu em nível alto
+   * Mï¿½todo de associaï¿½ï¿½o do tempo em que o sinal permaneceu em nï¿½vel alto
    * ao bit correspondente.
    */
   dht11_Exception readPackage(uint16_t time[40]);
